@@ -1,0 +1,162 @@
+h1
+{
+    text-align: center;
+    background-color: rgba(115, 60, 216, 0.322);
+}
+h3
+{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+img
+{
+    display: block;
+  margin: auto;
+}
+
+p
+{
+    font-size: 23px;
+}
+
+.centre
+{
+    text-align: center;
+}
+
+.Left {
+    text-align: left;
+    margin-top: -18%;
+    font-size: 23px;
+}
+
+.Right {
+    text-align: right;
+}
+.little {
+    font-size: 15px;
+}
+
+.souligner {
+border-bottom: 2px solid #ae4cff;
+padding-bottom: 5px; 
+font-weight: bold; 
+}
+
+.popup {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #000000;
+    padding: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 250px;
+    z-index: 10;
+}
+
+.popup img {
+    width: 70%;
+    height: auto;
+}
+
+.underline {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.titles-container {
+    display: flex;
+    justify-content: flex-start;
+    gap: 66%;
+    margin-bottom: 0px;
+}
+
+.video-container {
+    display: flex;
+    justify-content: right;
+    margin-top: -15%;
+}
+
+button {
+font-size: 20px; 
+width: 200px; 
+height: 60px; 
+border-radius: 10px; 
+background-color: #d3a4fa; 
+color: rgb(0, 0, 0); 
+cursor: pointer; 
+}
+
+button:hover {
+background-color: #c281f7; /
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin: -20px 0;
+}
+.multicolor {
+font-weight: bold;
+animation: colorChange 3s infinite;
+}
+
+@keyframes colorChange {
+0% { color: red; }
+25% { color: yellow; }
+50% { color: green; }
+75% { color: blue; }
+100% { color: purple; }
+}
+
+.Top {
+    background-color: #000000da;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+.Character {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 18px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+.Title {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    width: 100%;
+    font-size: 32px;
+   text-decoration: underline;
+}
+.attack {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    margin-bottom: 30px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.attacks-container {
+    display: flex;    
+    flex-wrap: wrap;   
+    gap: 2%;           
+    justify-content: center; 
+}
+
+.Leftt {
+    bottom: 0;        
+    left: 0;          
+    margin: -20px;  
+    cursor: pointer;   
+}
+
